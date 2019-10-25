@@ -71,9 +71,9 @@ else{
 
 		//setup request to send json via POST
 		$data = array(
-			'grant_type' => 'client_credentials',
-			'client_secret' => 'Igbjcq70NxqDevmRJkm5s',
-			'client_id' => 'FqZzLBY8ss'
+			'grant_type' => $grant_types,
+			'client_secret' => $client_secret,
+			'client_id' => $client_id
 		);
 		$payload = json_encode($data);
 
